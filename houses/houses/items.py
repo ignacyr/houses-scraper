@@ -6,7 +6,7 @@
 import scrapy
 
 
-class HousesItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class HouseItem(scrapy.Item):
+    price = scrapy.Field()
+    city = scrapy.Field()
+
